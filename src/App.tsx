@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Trash2, Home, Package, Truck, Phone, Mail, MapPin, Clock, CheckCircle, ArrowRight, Menu, X } from 'lucide-react';
+import { Trash2, Home, Package, TrashIcon, Truck, Phone, Mail, MapPin, Clock, CheckCircle, ArrowRight, Menu, X } from 'lucide-react';
 
 function App() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,9 +26,9 @@ function App() {
       description: 'Komplette Räumung und fachgerechte Entsorgung von Garageninhalt'
     },
     {
-      icon: Truck,
-      title: 'Haushaltsauflösung',
-      description: 'Zuverlässige Auflösung und Entrümpelung kompletter Haushalte'
+      icon: TrashIcon,
+      title: 'Sperrmüllentsorgung',
+      description: 'Fachgerechte Entsorgung von Sperrmüll und Altgegenständen.'
     }
   ];
 
@@ -289,7 +289,7 @@ function App() {
               {
                 icon: Phone,
                 title: 'Telefon',
-                content: '+49 123 456 7890',
+                content: '+49 176 724 384 93',
                 link: 'tel:+491234567890'
               },
               {
@@ -351,7 +351,7 @@ function App() {
               <ul className="space-y-2 text-sm">
                 <li>Kellerentrümpelung</li>
                 <li>Garagenentrümpelung</li>
-                <li>Haushaltsauflösung</li>
+                <li>Sperrmüllentsorgung</li>
               </ul>
             </div>
             <div>
